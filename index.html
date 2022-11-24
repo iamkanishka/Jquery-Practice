@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h4>Jquery Basic Syntax</h4>
+    <h4>Jquery KeyBoard Events</h4>
    
 
 
@@ -22,26 +22,12 @@
    <script src="js/jquery.js"></script>
    <script>
    $(document).ready(function(){
-    $("#box").click(function(){
-       $('#box').css('background-color','green')
-    //   const a = $('#box').html();
-    //   console.log(a);
-    });
-    $("#box").dblclick(function(){
-        $('#box').css('background-color','orange');
-    });
-
-    $("#box").contextmenu(function(){
-        $('#box').css('background-color','lightblue');
-    });
-
-    $("#box").mouseenter(function(){
-        $('#box').css('background-color','tan');
-    });
-    $("#box").mouseleave(function(){
-        $('#box').css('background-color','pink');
-    });
-
+   $('body').keydown(function(){
+      $(this).css("background-color","orange")
+   });
+   $('body').keyup(function(){
+      $(this).css("background-color","green")
+   });
    })
    </script>
     
