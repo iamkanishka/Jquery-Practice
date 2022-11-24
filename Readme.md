@@ -8,3 +8,4 @@ So We will be Looking These CSS3 features and Learn as we go on.
 2. jQuery Implementation using JQuery compressed File.
 3. jQuery Implementation with CDN 
 4. jQuery Basic Syntax
+5. jQuery Selectors 
