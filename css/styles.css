@@ -1,17 +1,13 @@
+
+body{ font-family: arial}
 #box{
-    height: 60%;
-    width: 70%;
-    background-color: white;  
+    padding: 10px;
+    background-color:pink;  
     color: black;
-    border:  1px solid black;
+   
 }
 
-#test2{
-    height: 30px;
-    width: 30px;
-    background-color: lightskyblue;
-    color: black;  
-}
+
 
 p{
     font-size: 16px;

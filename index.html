@@ -13,22 +13,35 @@
 
 
     <div id="box" class="test">
-        <p>Test Box 1</p>
+        <h2>Test Box 1</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
     </div>
 
-    <ul id="list">
-        <li>Orange</li>
-        <li class="test">Banana</li>
-        <li>Grapes</li>
-        <li class="test">Mango</li>
-        <li>Guava</li>
-</ul>
+
 
    <script src="js/jquery.js"></script>
    <script>
    $(document).ready(function(){
-    $("ul li:lt(2)").css("border","2px solid red")
+    $("#box").click(function(){
+       $('#box').css('background-color','green')
+    //   const a = $('#box').html();
+    //   console.log(a);
+    });
+    $("#box").dblclick(function(){
+        $('#box').css('background-color','orange');
+    });
+
+    $("#box").contextmenu(function(){
+        $('#box').css('background-color','lightblue');
+    });
+
+    $("#box").mouseenter(function(){
+        $('#box').css('background-color','tan');
+    });
+    $("#box").mouseleave(function(){
+        $('#box').css('background-color','pink');
+    });
+
    })
    </script>
     

@@ -9,3 +9,4 @@ So We will be Looking These CSS3 features and Learn as we go on.
 3. jQuery Implementation with CDN 
 4. jQuery Basic Syntax
 5. jQuery Selectors 
+6. jQuery Mouse Events
