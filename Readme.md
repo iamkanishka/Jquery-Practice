@@ -6,3 +6,4 @@ jQuery is a fast, small, and feature-rich JavaScript library. It makes things li
 So We will be Looking These CSS3 features and Learn as we go on.
 1. jQuery Introduction.
 2. jQuery Implementation using JQuery compressed File.
+3. jQuery Implementation with CDN 
