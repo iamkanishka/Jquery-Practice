@@ -2,13 +2,10 @@
 body{ font-family: arial}
 #box{
     padding: 10px;
+    width: 70%;
+    height: 200px;
     background-color:pink;  
-    color: black;
+    border: 1px solid #000;
+    overflow: auto;
    
-}
-
-
-
-p{
-    font-size: 16px;
 }

@@ -12,3 +12,4 @@ So We will be Looking These CSS3 features and Learn as we go on.
 6. jQuery Mouse Events
 7. jQuery Keyboard Events
 8. jQuery Form Events
+9. jQuery Window Events
