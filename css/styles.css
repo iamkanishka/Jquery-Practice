@@ -1,0 +1,20 @@
+#test1{
+    height: 30px;
+    width: 30px;
+    background-color: orange;  
+    color: black;
+}
+
+#test2{
+    height: 30px;
+    width: 30px;
+    background-color: lightskyblue;
+    color: black;  
+}
+
+p{
+    font-size: 5px;
+}
+div{
+    display: inline-table;
+}

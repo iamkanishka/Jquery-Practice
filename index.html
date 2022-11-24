@@ -5,15 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h4>Jquery Implementation</h4>
-    <script>
-        $(document).ready(function(){
-            alert(1)
-        })
-    </script>
+    <h4>Jquery Basic Syntax</h4>
+   
+
+
+    <div id="test1">
+        <p>Test Box 1</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+
+    <div id="test2">
+        <p>Test Box 2</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
+    </div>
+   <script src="js/jquery.js"></script>
+   <script>
+    $(document).ready(function(){
+      const a = $('#test1').html();
+      console.log(a)
+
+      const b = $('#test2').html();
+      console.log(b)
+    })
+   </script>
     
 </body>
 </html>
