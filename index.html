@@ -8,28 +8,26 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <h4>Jquery KeyBoard Events</h4>
-   
-
-
-    <div id="box" class="test">
-        <h2>Test Box 1</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. </p>
-    </div>
-
-
+    <h4>Jquery Form Events</h4>
+   <form action="#" id="sform">
+      <label for="">Name</label> <input type="text" name="name" id="sname">
+      <label for="">Class</label> <input type="text" name="class" id="sclass">
+      <label for="">Country</label>
+      <select name="" id="scountry">
+        <option value="India">India</option>
+        <option value="Pakistan">Pakistan</option>
+        <option value="Bangladesh">Bangladesh</option>
+        <option value="Sri Lanka">Sri Lanka</option>
+        <option value="Nepal">Nepal</option>
+      
+      </select>
+     <input type="submit" value="Submit">
+   </form>
+   <br>
+   <div id="test" style="border: 2px solid red;"></div>
 
    <script src="js/jquery.js"></script>
-   <script>
-   $(document).ready(function(){
-   $('body').keydown(function(){
-      $(this).css("background-color","orange")
-   });
-   $('body').keyup(function(){
-      $(this).css("background-color","green")
-   });
-   })
-   </script>
-    
+   <script src="js/event.js"></script>
+   
 </body>
 </html>
