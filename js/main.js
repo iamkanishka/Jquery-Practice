@@ -1,7 +1,20 @@
 $(document).ready(function () {
-  $('#addStyleButton').click(function(){
-  $('#box').css({"background":"orange", "color":"red", "border":"1px solid red"} )
-       
+  $('#box').on({
+    click:function(){
+        $(this).css("background","orange");
+    },
+    mouseover:function(){
+      $(this).css("background","lightblue");
+      
+    },
+    mouseout:function(){
+      $(this).css("background","lightgreen");
+      
+    }
+  });
+
+  $("button").click(function(){
+    $('#box').off("mouseover mouseout")
   })
 
 
