@@ -25,6 +25,8 @@ So We will be Looking These CSS3 features and Learn as we go on.
 19. JQuery Clone
 20. JQuery ReplaceWith and Replace All
 21. JQuery Wrap and Unwrap
+22. JQuery WrapAll and wrapInner
+
 
 
 

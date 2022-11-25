@@ -1,9 +1,9 @@
 $(document).ready(function () {
-  $("#wrapBtn").click(function () {
-     $('#box p').wrap('<h2></h2>')
+  $("#wrapallBtn").click(function () {
+     $('p').wrapAll('<div id="box"></div>')
   });
-  $("#unwrapBtn").click(function () {
-    $('#box p').unwrap()
+  $("#wrapInnerBtn").click(function () {
+    $('h4').wrapInner('<span class="red"></span>')
  
    });
 });
