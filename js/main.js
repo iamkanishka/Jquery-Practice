@@ -1,6 +1,9 @@
 $(document).ready(function () {
-  $("#replaceBtn").click(function () {
-   // $('#box p:nth-child(3)').replaceWith("Kanishka Naik")
-   $('<h3>Kanishka Naik</h3>').replaceAll('#box p:first')
+  $("#wrapBtn").click(function () {
+     $('#box p').wrap('<h2></h2>')
   });
+  $("#unwrapBtn").click(function () {
+    $('#box p').unwrap()
+ 
+   });
 });
