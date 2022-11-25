@@ -1,12 +1,13 @@
 $(document).ready(function () {
-$('#EmtpyBtn').click(function(){
-  $('#box').empty()
+  $('#appendBtn').click(function(){
+    $("<h2>Hi this is kanishk AppendTo</h2>").appendTo('#box');
+  
+  });
+  
+  $('#prependBtn').click(function(){
+    $("<h2>Hi this is kanishk PrependTo</h2>").prependTo('#box');
 
-});
+  
+  })
 
-$('#removedBtn').click(function(){
-  $('#box').remove()
-
-});
-
-});
+  });

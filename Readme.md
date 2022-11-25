@@ -21,4 +21,7 @@ So We will be Looking These CSS3 features and Learn as we go on.
 15. jQuery Append & Prepend 
 16. jQuery After & Before 
 17. jQuery Remove & Empty 
+18. jQuery AppendTo & PrependTo 
+
+
 
