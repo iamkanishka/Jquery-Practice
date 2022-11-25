@@ -1,12 +1,14 @@
 $(document).ready(function () {
-  $("#clickbutton").click(function () {
-    $("#box h2").text("Hello World from <b>Kanishka</b> ");
-    $("#box p").html("Hello World from <b> Kanishka </b> ");
-    $("#box h2").attr("class", "red");
+ $('#addButton').click(function(){
+  $('#box, h4').addClass('red')
+ });
 
-  });
-  
-  $('#sname').val("Kanishka naik")
-  $('#sclass').val("BTech")
+ $('#removebutton').click(function(){
+  $('#box').removeClass('red')
+ })
+
+ $('#togglebutton').click(function(){
+  $('#box').toggleClass('red')
+ })
 
 });
