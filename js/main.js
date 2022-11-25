@@ -1,14 +1,8 @@
 $(document).ready(function () {
- $('#addButton').click(function(){
-  $('#box, h4').addClass('red')
- });
+  $('#addStyleButton').click(function(){
+  $('#box').css({"background":"orange", "color":"red", "border":"1px solid red"} )
+       
+  })
 
- $('#removebutton').click(function(){
-  $('#box').removeClass('red')
- })
-
- $('#togglebutton').click(function(){
-  $('#box').toggleClass('red')
- })
 
 });
