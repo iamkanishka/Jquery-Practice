@@ -1,15 +1,12 @@
 $(document).ready(function () {
-$('#afterdBtn').click(function(){
-  $('#box').after("<h2>Hi this is kanishk After</h2>")
+$('#EmtpyBtn').click(function(){
+  $('#box').empty()
 
 });
 
-$('#beforedBtn').click(function(){
-  $('#box').before("<h2>Hi this is kanishk Before</h2><p>This is a Paragraph</p>")
+$('#removedBtn').click(function(){
+  $('#box').remove()
 
-})
-
-
-
+});
 
 });
