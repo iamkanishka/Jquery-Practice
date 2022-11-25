@@ -4,12 +4,12 @@ body{ font-family: arial}
     padding: 10px;
     width: 70%;
     height: 200px;
-    background-color: orangered;
+    background-color: lightblue;
     border: 1px solid #000;
     overflow: auto;
    
 }
-#box2{
+/* #box2{
     padding: 10px;
     width: 70%;
     background-color: yellow;
@@ -17,7 +17,7 @@ body{ font-family: arial}
     border: 1px solid #000;
     overflow: auto;
    
-}
+} */
 
 .red{
     background-color: yellow;
