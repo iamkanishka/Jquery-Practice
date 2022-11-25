@@ -9,3 +9,7 @@ body{ font-family: arial}
     overflow: auto;
    
 }
+
+.red{
+    color:red;
+}

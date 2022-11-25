@@ -13,4 +13,5 @@ So We will be Looking These CSS3 features and Learn as we go on.
 7. jQuery Keyboard Events
 8. jQuery Form Events
 9. jQuery Window Events
-10. jQuery Get Methods 
+10. jQuery Get Methods
+10. jQuery Set Methods 
