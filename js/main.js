@@ -1,9 +1,15 @@
 $(document).ready(function () {
-  $("#wrapallBtn").click(function () {
-     $('p').wrapAll('<div id="box"></div>')
+  $("#widthBtn").click(function () {
+   console.log('width',$('#box').width())
+   console.log('innerwidth',$('#box').innerWidth())
+   console.log('outerwidth',$('#box').outerWidth())
+   console.log('outweWidth with true',$('#box').outerWidth(true))
+
   });
-  $("#wrapInnerBtn").click(function () {
-    $('h4').wrapInner('<span class="red"></span>')
- 
+  $("#heightBtn").click(function () {
+   console.log('height',$('#box').height())
+   console.log('innerHeight',$('#box').innerHeight())
+   console.log('outerheight',$('#box').outerHeight())
+   console.log('outerheight with true',$('#box').outerHeight(true))
    });
 });
