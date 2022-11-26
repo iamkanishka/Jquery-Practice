@@ -1,15 +1,11 @@
 $(document).ready(function () {
-  $("#widthBtn").click(function () {
-   console.log('width',$('#box').width())
-   console.log('innerwidth',$('#box').innerWidth())
-   console.log('outerwidth',$('#box').outerWidth())
-   console.log('outweWidth with true',$('#box').outerWidth(true))
+  $("#positionBtn").click(function () {
+   var x =$('#box h2').position();
+   console.log('position Top'+ x.top,'position Left'+ x.left)
 
   });
-  $("#heightBtn").click(function () {
-   console.log('height',$('#box').height())
-   console.log('innerHeight',$('#box').innerHeight())
-   console.log('outerheight',$('#box').outerHeight())
-   console.log('outerheight with true',$('#box').outerHeight(true))
+  $("#OffsetBtn").click(function () {
+  $('#box').offset({top:100, left:100});
+   
    });
 });
