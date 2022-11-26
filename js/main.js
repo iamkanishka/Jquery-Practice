@@ -1,11 +1,13 @@
 $(document).ready(function () {
-  $("#positionBtn").click(function () {
-   var x =$('#box h2').position();
-   console.log('position Top'+ x.top,'position Left'+ x.left)
+  $("#hasClassBtn").click(function () {
+      console.log( $('#box').hasClass('test'));
+     if($('#box').hasClass('test')){
+       console.log('Class Exist'); 
+     }else{
+      console.log('Class Dosent Exist'); 
+
+     }
 
   });
-  $("#OffsetBtn").click(function () {
-  $('#box').offset({top:100, left:100});
-   
-   });
+
 });
