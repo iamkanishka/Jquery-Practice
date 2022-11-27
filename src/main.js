@@ -1,11 +1,8 @@
 $(document).ready(function () {
-  $('#eventbox').on(" mouseover mouseout mousedown", function(event){
-    $('h2').html("Event "+event.which)
+  $('#box').on("click", function(event){
+    $('h3').html("Target Element "+event.target.innerHTML)
  
   });
-  $('#inputbox').on("keydown", function(event){
-    $('h2').html(event.type + " : "+event.which)
- 
-  })
+
  
 });
