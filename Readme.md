@@ -35,6 +35,7 @@ So We will be Looking These CSS3 features and Learn as we go on.
 28. jQuery slideUp , slideDown & SlideToggle 
 29. jQuery Animate.
 30. jQuery scrollTop and scrollLeft.
+31. jQuery Stop 
 
  
 

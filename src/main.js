@@ -1,17 +1,11 @@
 $(document).ready(function () {
-
-$(window).scroll(function(){
-  $('#box').html("");
- 
-  $('#box').append("Top: "+ $(window).scrollTop());
-  $('#box').append("<br>Left: "+ $(window).scrollLeft());
-
-})
-  $("#scrollTopBtn").click(function () {
-    $(window).scrollTop(200)
+  $("#animateBtn").click(function () {
+    $("#box").animate( { left: "200px", borderWidth: "5px" },  function () {
+        console.log("animation");
+      });
+      $("#box").animate( {  fontSize: "25px", },);
   });
-  $("#scrollLeftBtn").click(function () {
-    $(window).scrollLeft(100)
+  $("#stopAnimateBtn").click(function () {
+    $("#box").stop(true, true);
   });
-
 });
