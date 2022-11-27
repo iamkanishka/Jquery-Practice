@@ -38,7 +38,10 @@ So We will be Looking These CSS3 features and Learn as we go on.
 31. jQuery Stop 
 32. jQuery Chaining
 33. jQuery parent, parentsUntil, closest, offsetParent
-34. jQuery Children & Find 
+34. jQuery Children & Find
+38. JQuery earch Mehod  
+
+
 
 
 
