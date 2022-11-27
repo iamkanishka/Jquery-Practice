@@ -36,8 +36,9 @@ So We will be Looking These CSS3 features and Learn as we go on.
 29. jQuery Animate.
 30. jQuery scrollTop and scrollLeft.
 31. jQuery Stop 
+32. jQuery Chaining
 
- 
+
 
 
 
