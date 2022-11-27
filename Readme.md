@@ -30,6 +30,8 @@ So We will be Looking These CSS3 features and Learn as we go on.
 23. Jquery Height and Width
 24. Jquery Position and Offset
 25. Jquery hasClass
+26. Jquery hide Show and Toggle.
+
 
 
 
