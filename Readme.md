@@ -45,6 +45,8 @@ So We will be Looking These CSS3 features and Learn as we go on.
 41. JQuery Event Which
 42.  JQuery Event target
 43.  JQuery Event.preventDefault
+44.  JQuery Event.stoppropogateion
+
 
 
 
