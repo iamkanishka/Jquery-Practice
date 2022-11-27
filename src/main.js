@@ -1,9 +1,6 @@
 $(document).ready(function () {
-  $(document).mousemove(function (event) {
-    var x =  event.pageX;
-    var y =  event.pageY;
-     $('#mousebox').offset({top:y, left:x})
-    $('#result').text(`PageX:- ${x},PageY:- ${y}`)
-
+  $('#eventbox').on("click dbclick mouseover mouseout", function(event){
+    $('h2').html("Event "+event.type)
+ 
   })
 });

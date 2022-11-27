@@ -41,6 +41,7 @@ So We will be Looking These CSS3 features and Learn as we go on.
 34. jQuery Children & Find
 38. JQuery earch Mehod  
 39. JQuery PageX, PageY
+40. JQuery Event Type
 
 
 
