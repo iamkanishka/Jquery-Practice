@@ -10,16 +10,30 @@
 </head>
 
 <body>
-    <h4>jQuery Chaining</h4>
-    <div id="box">
+    <h4>jQuery parent, parentsUntil, closest, offsetParent</h4>
+    <!-- <div id="box">
         <h2>Test Box</h2>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit cumque animi architecto maxime atque nemo labore rerum optio placeat nulla exercitationem blanditiis ad reiciendis, modi repudiandae! Culpa laboriosam blanditiis harum!</p>
+    </div> -->
+
+    <div id="main-outer">
+        <h2>Main Outer</h2>
+        <div id="outer" style="position: relative;">
+            <h2>Outer</h2>
+            <div id="inner">
+                <h2 id="child-head">Inner</h2>
+                <div>A</div>
+                <div>B</div>
+                <div id="child-c">C</div>
+                <div>D</div>
+                
+            </div>
+        </div>
     </div>
+
     <br>
 
-    <button id="animateBtn">Animate</button>
- 
-
+   
 
     <script src="js/jquery.js"></script>
     <script src="src/main.js"></script>

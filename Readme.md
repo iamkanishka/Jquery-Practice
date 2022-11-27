@@ -37,6 +37,8 @@ So We will be Looking These CSS3 features and Learn as we go on.
 30. jQuery scrollTop and scrollLeft.
 31. jQuery Stop 
 32. jQuery Chaining
+33. jQuery parent, parentsUntil, closest, offsetParent
+
 
 
 
