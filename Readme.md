@@ -31,6 +31,7 @@ So We will be Looking These CSS3 features and Learn as we go on.
 24. Jquery Position and Offset
 25. Jquery hasClass
 26. Jquery hide Show and Toggle.
+27. Jquery FadeIn, FadeOut, FadeToggle, Fadeto
 
 
 

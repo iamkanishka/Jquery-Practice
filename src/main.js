@@ -1,17 +1,22 @@
 $(document).ready(function () {
-  $("#hideBtn").click(function () {
-    $("#box p").hide(2000, function () {
-      console.log("Hide activated");
+  $("#fadeOutBtn").click(function () {
+    $("#box").fadeOut(3000, function(){
+      console.log("Now It is FadeOut");
     });
   });
-  $("#showBtn").click(function () {
-    $("#box p").show("slow", function () {
-      console.log("Show activated");
+  $("#fadeInBtn").click(function () {
+    $("#box").fadeIn(3000, function(){
+      console.log("Now It is FadeIn");
     });
   });
-  $("#toggleBtn").click(function () {
-    $("#box").toggle(1000, function () {
-      console.log("Toggle activated");
+  $("#fadeToggleBtn").click(function () {
+    $("#box").fadeToggle(3000, function(){
+      console.log("Now It is FadewithToggle");
+    });
+  });
+  $("#fadeToBtn").click(function () {
+    $("#box").fadeTo(3000, 0.5,function(){
+      console.log("Now It is FadeTo");
     });
   });
 });
