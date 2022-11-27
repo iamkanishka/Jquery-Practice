@@ -1,3 +1,5 @@
 $(document).ready(function () {
- $('#child-c').closest("ul").css({'background':'red'});
+// $('#inner').children(".test").css({'background':'red'});
+ $('#main-outer').find(".test").css({'background':'red'});
+
 });
