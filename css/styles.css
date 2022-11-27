@@ -1,14 +1,13 @@
-
-body{ font-family: arial}
-#box{
-    padding: 50px;
-    width: 250px;
-    margin:30px;
-    height: 250px;
-    background-color: rgb(88, 243, 88);
-    border: 5px solid #000;
-    overflow: auto;
-   
+body {
+  font-family: arial;
+}
+#box {
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: rgb(88, 243, 88);
+  border: 1px solid #000;
+  position: relative;
 }
 /* #box2{
     padding: 10px;
@@ -20,18 +19,16 @@ body{ font-family: arial}
    
 } */
 
-.red{
-    background-color: yellow;
-    color:red;
+.red {
+  background-color: yellow;
+  color: red;
 }
 
-.blue{
-    background-color: black;
-    color:lightblue;
+.blue {
+  background-color: black;
+  color: lightblue;
 }
-.green{
-    background-color: orange;
-    color:lightgreen;
+.green {
+  background-color: orange;
+  color: lightgreen;
 }
-
-
