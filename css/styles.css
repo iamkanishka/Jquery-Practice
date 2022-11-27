@@ -7,7 +7,9 @@ body {
   height: 100px;
   background-color: rgb(88, 243, 88);
   border: 1px solid #000;
-  position: relative;
+  position: fixed;
+  left:20px;
+  bottom: 20px;
 }
 /* #box2{
     padding: 10px;
@@ -32,3 +34,4 @@ body {
   background-color: orange;
   color: lightgreen;
 }
+
