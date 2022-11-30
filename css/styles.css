@@ -17,6 +17,20 @@ body {
    
 } */
 
+#first {
+  padding: 10px;
+  background-color: rgb(88, 243, 88);
+  border: 2px solid #000;
+  overflow: auto;
+}
+
+#second {
+  padding: 10px;
+  background-color:lightblue;
+  border: 2px solid #000;
+  overflow: auto;
+}
+
 #main-outer {
   width: 1000px;
   height: 500px;

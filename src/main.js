@@ -1,3 +1,3 @@
 $(document).ready(function () {
- $('#child-c').prevUntil('.test').css({'background':'red'});
+ $('p').slice(0,3).css({'background':'gold'});
 });
