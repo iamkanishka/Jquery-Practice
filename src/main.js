@@ -1,3 +1,8 @@
 $(document).ready(function () {
- $('p').slice(0,3).css({'background':'gold'});
+  //$('p').has('').css({'background':'gold'});
+  $("p").click(function () {
+    if ($(this).parent().is("div")) {
+      $(this).css({ background: "gold" });
+    }
+  });
 });
