@@ -1,0 +1,73 @@
+body {
+  font-family: arial;
+}
+#box {
+  padding: 10px;
+  background-color: rgb(88, 243, 88);
+  border: 2px solid #000;
+  overflow: auto;
+}
+/* #box2{
+    padding: 10px;
+    width: 70%;
+    background-color: yellow;
+    height: 200px;
+    border: 1px solid #000;
+    overflow: auto;
+   
+} */
+
+#main-outer {
+  width: 1000px;
+  height: 500px;
+  background: lightblue;
+  padding: 20px;
+}
+#outer {
+  margin: 20px;
+  width: 800px;
+  height: 400px;
+  background: lightgreen;
+}
+
+#inner {
+  margin: 20px;
+  width: 600px;
+  height: 300px;
+  background: lime;
+  display: flex;
+}
+#inner div {
+  margin: 20px;
+  width: 50px;
+  height: 100px;
+  background: blue;
+}
+
+.red {
+  background-color: yellow;
+  color: red;
+}
+
+.blue {
+  background-color: black;
+  color: lightblue;
+}
+.green {
+  background-color: orange;
+  color: lightgreen;
+}
+
+#eventbox {
+    
+  margin: 20px;
+  width: 600px;
+  height: 300px;
+  background: lime;
+}
+
+#mousebox {
+  width: 50px;
+  height: 50px;
+  background: lightblue;
+}
